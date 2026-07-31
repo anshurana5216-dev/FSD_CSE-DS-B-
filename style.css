@@ -1,0 +1,158 @@
+/* Remove default margin */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.header{
+    width:100%;
+    height:80px;
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 50px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+/* Logo */
+
+.logo img{
+    height:60px;
+}
+
+/* Navbar */
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:45px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+
+.hero{
+    width:100%;
+    height:100vh;
+
+    background-image:url("2.jpg");
+    background-size:cover;
+    background-position:center;
+
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Dark Overlay */
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.35);
+}
+
+/* Text */
+
+.hero-content{
+    position:relative;
+    color:white;
+    text-align:center;
+    width:70%;
+}
+
+.hero-content h1{
+    font-size:90px;
+    margin-bottom:30px;
+}
+
+.hero-content p{
+    font-size:30px;
+    line-height:45px;
+}
+
+
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 60px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #f9c74f;
+}
+
+.footer-section p {
+    line-height: 1.8;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #f9c74f;
+}
+
+.footer hr {
+    border: 1px solid #444;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
