@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    height: 700;
+    width: 700;
+    justify-content: center;
+    border: black solid;
+    border-radius: 3px;
+}
